@@ -32,6 +32,21 @@
     
 }
 
+.margen{
+    size-adjust: auto;
+}
+
+.carousel-horizontal {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+.carousel-item {
+    display: inline-block;
+    width: auto;
+}
+
 .gcc{
     color: #F46503;
     --selectionBg : #F46503;
